@@ -87,7 +87,7 @@ MainWindow::MainWindow(QWidget* parent):
 {
     mUI.setupUi(this);
    // NCSIST mark
-    QPixmap pix("/home/yiwei/Pictures/07-up_2.png");
+    QPixmap pix("/home/uscclab/security-software/picture/NCSIST_MARK");
     mUI.label_mark->setPixmap(pix);
     mUI.label_mark->setAlignment(Qt::AlignCenter);
     mUI.progressBar->reset();
