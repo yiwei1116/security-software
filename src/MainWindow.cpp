@@ -86,6 +86,10 @@ MainWindow::MainWindow(QWidget* parent):
     mRuleResultsExpanded(false)
 {
     mUI.setupUi(this);
+   // NCSIST mark
+    QPixmap pix("/home/yiwei/Pictures/07-up_2.png");
+    mUI.label_mark->setPixmap(pix);
+    mUI.label_mark->setAlignment(Qt::AlignCenter);
     mUI.progressBar->reset();
 
     // we start with localhost which doesn't need remote machine details
